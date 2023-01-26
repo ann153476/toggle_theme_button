@@ -36,11 +36,11 @@
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #4B48DB;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #4B48DB;
   }
   
   input:checked + .slider:before {
@@ -59,11 +59,31 @@
   }
 
   /**********************/
+svg{
+  fill:currentColor;
+}
   .light{
     background-color:#F4F4F4;
     color:#111321;
+    fill:r
   }
   .dark{
     background-color: #686868;
     color:#F4F4F4;
+  }
+  .light__svg{
+    color: #4B48DB;
+  }
+  .dark__svg{
+    color: #5F6775;
+  }
+  .switch__box{
+    width: 200px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .switch__box{
+    background-color: #F4F4F4;
   }
